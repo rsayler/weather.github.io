@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Reference code for adaptive sizing
+    <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="box purple">col-sm-6 col-md-3</div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="box purple">col-sm-6 col-md-3</div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="box purple">col-sm-6 col-md-3</div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="box purple">col-sm-6 col-md-3</div>
+        </div>
+      </div>
+         -->
+<div class="navbar">
+    
+    <div class="row"> 
+        <button onclick="window.location.href = 'index.html';">Latitude</button>
+    </div>
+        <div align="right">
+            <div class="dropdown">
+                    <button class="dropbtn">Plots</button>
+                    <div class="dropdown-content">
+                      <a href="maxtemp.html">Maximum Tempature</a>
+                      <a href="humidity.html">Humidity</a>
+                      <a href="cloudiness.html">Cloudiness</a>
+                      <a href="windspeed.html">Wind Speed</a>
+                    </div>
+                  </div>
+        <a href="data.html">Data</a>
+        <a href="comparison.html">Comparison</a>
+    </div>
+</div>
+
+</div>  
+</div>
+<!-- Place this in a box with   <div class="container"> -->
+
+    <div class="row"> 
+        <!--Normally these medium columns go full wide on small screen sizes-->
+     <article> 
+                <div class="col-md-8">
+          <div align="left">
+           <!-- <div class="box1"> -->
+                   
+                    <h1>Summary: Latitude vs. X</h1>
+                    <hr>
+                             <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we fierst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    
+                            </p>
+                            <br>
+                            <p> 
+                                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: tempature, cloudiness, wind speed, and humidity. this site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+                            </p>
+            </div>
+          </div>
+        </div>
+        </article>
+        <div class="aside">
+        <div align="right">
+            
+                    <div class="col-md-4">
+                        <table>
+                    <h2> Visualizations</h2>
+                        <tr>
+                            <td>
+                            <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="tempature map" width=25%>
+                            <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig2.png" alt="humidity map" width=25%>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig3.png" alt="cloudiness map" width=25%>
+                            <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig4.png" alt="windspeed map" width=25%>
+                        </td>
+                        </tr>
+                    </table>
+
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>   
+<!-- 
+<div class="column">
+<article>
+<h1>Summary: Latitude vs. X</h1>
+<hr>
+         <p> The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we fierst pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+
+        </p>
+        <br>
+        <p> 
+            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: tempature, cloudiness, wind speed, and humidity. this site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. 
+        </p>
+        </div>
+    </article>
+    </div>
+
+<div class ="column">
+    <div class="col-sm-6 col-md-3">
+    <h2> Visualizations</h2>
+    <table>
+        <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="tempature map">
+        <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="tempature map">
+        <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="tempature map">
+        <img src="/Users/robertsayler/Desktop/myrepo/UCSDSAN2019DATA1/02-Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="tempature map">
+
+    </table>
+
+    </div>
+
+</div>
+
+-->
+</body>
+</html>
